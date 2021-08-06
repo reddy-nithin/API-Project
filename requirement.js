@@ -33,3 +33,9 @@
 //To get all the publications - DONE
 //To get a specific publications - DONE
 //To get a list of publications based on the book - DONE
+
+
+//POST REQUEST
+//1.ADD NEW BOOK - DONE
+//2.ADD NEW AUTHORS - DONE
+//3.ADD NEW AUTHOR - DONE
