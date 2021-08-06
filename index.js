@@ -121,7 +121,7 @@ Methods          GET
 */
 booky.get("/author/:id", (req, res) => {
   const getSpecificAuthor = database.author.filter(
-    (author) => author.id === req.params.id
+    (author) => author.id === parseInt(req.params.id)
   );
 
   if (getSpecificAuthor.length === 0) {
@@ -156,7 +156,7 @@ Methods          GET
 */
 booky.get("/publications/:id", (req, res) => {
   const getSpecificPublication = database.publication.filter(
-    (publication) => publication.id === req.params.id
+    (publication) => publication.id === parseInt(req.params.id)
   );
 
   if (getSpecificPublication.length === 0) {
