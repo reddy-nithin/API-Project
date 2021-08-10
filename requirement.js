@@ -45,6 +45,14 @@
 //1.UPDATE BOOK DETAILS IF AUTHOR IS CHANGED
 
 //DELETE
-//1. DELETE A BOOKS
+//1. DELETE A BOOKS - DONE
 //2. DELETE AUTHOR FROM Book - UR Task
-//3. DELETE author from the book and related book from author 
+//3. DELETE author from the book and related book from author - DONE
+
+
+//Schema - Blueprint of how data has to be constructed
+//MongoDB is schemaless
+//mongoose has schema
+//Mongoose helps in validation , relationship with other data
+//model -> document model of mongoDB
+//Schema -> Model -> use them.
